@@ -1,3 +1,4 @@
+// this script fetches all products from the sql database and displays them
 <?php
 $conn = mysqli_connect("localhost", "root", "", "test");
 $product = mysqli_query($conn,"SELECT * FROM productstable ORDER BY productid ASC" );
