@@ -1,3 +1,4 @@
+// this script inserts the product details into the sql database
 <?php
 $servername = "localhost";
 $username = "root";
